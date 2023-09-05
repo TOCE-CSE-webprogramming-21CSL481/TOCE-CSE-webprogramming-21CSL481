@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<style>
+#example1 {
+  background-image: url("file:///D:/CSS/img/e1.jpg");
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+}
+body, html {
+  height: 100%;
+}
+#example2 {
+  background-image: url("file:///D:/CSS/img/e2.jpg");
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+}
+body, html {
+  height: 100%;
+}
+
+#example3 {
+  background-image: url("file:///D:/CSS/img/e3.webp");
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+}
+body, html {
+  height: 100%;
+}
+
+#example4 {
+  background-image: url("file:///D:/CSS/img/e4.webp");
+  background-position: right bottom, left top;
+  background-repeat: no-repeat, repeat;
+  padding: 15px;
+}
+body, html {
+  height: 100%;
+}
+
+
+
+/*parallax*/
+.parallax {
+  /* The image used */
+  background-image: url('  file:///D:/CSS/img/p.gif');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.parallax1{
+  /* The image used */
+  background-image: url('file:///D:/CSS/img/p1.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.parallax2{
+  /* The image used */
+  background-image: url('file:///D:/CSS/img/p2.avif');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.parallax3{
+  /* The image used */
+  background-image: url('file:///D:/CSS/img/p3.gif');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.parallax4{
+  /* The image used */
+  background-image: url('file:///D:/CSS/img/p4.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
+}
+
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+</head>
+<body>
+
+</style>
+
+
+<header style="font-size: 25px"> Webpage using CSS</header>
+  <header style="text-align:right">
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#"><center>page 1</center></a>
+    <a href="#"><center>page 2</center></a>
+    <a href="#"><center>page 3</center></a>
+  </div>
+</div></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+ <div class="parallax"></div>
+
+<div id="example1">
+  <div class="content 1">
+    <section id="home"><center>
+      <h1 style="color: rgb(200,206,235)">Welcome to My Website</h1>
+<p style="color: rgb(135,206,235)">This is the home section of the website.</p>
+<h1 style="color: rgb(200,206,235)">Lorem Ipsum Dolor</h1>
+  <h3><p style="color: rgb(135,206,235)">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</h3></p>
+  <h3><p style="color: rgb(135,206,235)">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</h3></p>
+</div>
+
+      </center>
+    </section>
+  </div>
+
+<div class="parallax1"></div>
+
+<div id="example2">
+ <div class="content 2">
+    <section id="about"><center>
+      <h2 style="color: rgb(200,206,235)">About</h2>
+      <p style="color: rgb(135,206,235)">This is the about section of the website.</p></center>
+  <h1 style="color: rgb(200,206,235)">Lorem Ipsum Dolor</h1>
+  <h3><p style="color: rgb(135,206,235)">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</h3></p>
+  <h3><p style="color: rgb(135,206,235)">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</h3></p>
+</div>
+    </section>
+    </div>
+
+<div class="parallax2"></div>
+
+<div id="example3">
+    <div class="content 3">
+    <section id="services"><center>
+      <h2 style="color: rgb(200,206,235)">Services</h2>
+      <p style="color: rgb(135,206,235)">This is the services section of the website.</p>
+      </center>
+<h1 style="color: rgb(200,206,235)">Lorem Ipsum Dolor</h1>
+  <h3><p style="color: rgb(135,206,235)">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</h3></p>
+  <h3><p style="color: rgb(135,206,235)">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</h3></p>
+</div>
+    </section>
+    </div>
+
+<div class="parallax3"></div>
+<div id="example4">
+    <div class="content 4">
+    <section id="contact"><center>
+      <h2 style="color: rgb(200,206,235)">Contact</h2>
+      <p style="color: rgb(135,206,235)">This is the contact section of the website.</p>
+       </center>
+<h1 style="color: rgb(200,206,235)">Lorem Ipsum Dolor</h1>
+  <h3><p style="color: rgb(135,206,235)">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</h3></p>
+  <h3><p style="color: rgb(135,206,235)">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</h3></p>
+</div>
+    </section>
+  </div>
+<div class="parallax4"></div>
+<footer>
+    &copy; 2023 Typical CSS Webpage. All rights reserved.
+  </footer>
+</body>
+</html>
